@@ -1,0 +1,22 @@
+:root {
+    /* color */
+    --color-bg: #3f454d;
+    --color-white: #ffffff;
+}
+
+body {
+    height: 90vh;
+    background-color: var(--color-bg);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+h1 {
+    color: var(--color-white);
+}
+
+.list {
+    display:flex;
+}
